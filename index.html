@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nova Era Exportadora</title>
+<meta name="description" content="Nova Era Exportadora: madeira serrada, estacas e projetos especiais da Amazônia. Sawn timber, stakes and special projects from the Amazon.">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&family=Instrument+Sans:wght@400;600&display=swap">
+<style>
+:root{color-scheme:light;--bg:#ffffff;--tx:#14283c;--mu:#5b6b7a;--ac:#02589b;--c2:#eaf2f8;--bd:#d3e0ea;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(92px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;font:16px/1.65 "Instrument Sans",system-ui,Arial,sans-serif;background:var(--bg);color:var(--tx)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#fff;z-index:10}
+h1,h2,h3{font-family:Newsreader,Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:#fff;border-bottom:1px solid #d9d4c8;display:flex;align-items:center;gap:18px;padding:6px 22px;flex-wrap:wrap}
+header img{height:60px}.br{display:flex;align-items:center;gap:12px;text-decoration:none;color:#14283c;font:600 24px/1.1 Newsreader,Georgia,serif}
+nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}
+nav a{color:#14283c;text-decoration:none;font-size:15px}
+nav a:hover{text-decoration:underline}
+.lg button{border:1px solid #02589b;background:#fff;color:#02589b;padding:3px 9px;border-radius:2px;cursor:pointer;font:600 13px inherit;font-family:inherit}
+.lg button.on{background:#02589b;color:#fff}
+#inicio{min-height:78vh;background:#14283c center 35%/cover;color:#fff;display:flex;align-items:flex-end}
+#inicio div{padding:48px max(22px,6vw);max-width:900px}
+#inicio h1{text-shadow:0 2px 14px rgba(0,0,0,.5);font-size:clamp(34px,6vw,64px);margin-bottom:14px}
+#inicio p{text-shadow:0 1px 8px rgba(0,0,0,.55);font-size:19px;max-width:560px;margin:0 0 26px}
+.btn{display:inline-block;background:#02589b;color:#fff;padding:12px 24px;border-radius:2px;text-decoration:none;border:0;font:inherit;cursor:pointer}
+section{padding:64px max(22px,6vw)}
+.w{max-width:1100px;margin:auto}
+h2{font-size:clamp(28px,4vw,40px);color:var(--ac);margin-bottom:22px}
+.two{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:start}
+@media(max-width:780px){.two{grid-template-columns:1fr}}
+.two p{max-width:62ch}
+.pic img{width:100%;display:block;border-radius:2px;margin-bottom:12px}
+.facts{display:flex;flex-wrap:wrap;gap:0 32px;border-top:1px solid var(--bd);margin-top:26px;padding-top:14px}
+.facts span{display:block;font-size:14px;color:var(--mu)}
+.facts b{font:600 26px Newsreader,Georgia,serif;color:var(--tx)}
+ul.d{padding-left:20px;margin:0}
+#produtos,#contato{background:var(--c2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:34px 26px}
+.m{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:2px}
+.mw{position:relative}.m{cursor:zoom-in}.ar{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;border-radius:50%;background:rgba(255,255,255,.93);color:#14283c;font-size:22px;line-height:1;cursor:pointer;box-shadow:0 1px 6px rgba(0,0,0,.3)}.ar.l{left:8px}.ar.r{right:8px}.ct{position:absolute;right:8px;bottom:8px;background:rgba(10,25,40,.78);color:#fff;font-size:12px;padding:2px 8px;border-radius:10px}.th{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:10px 0}.th small{width:100%;color:var(--mu);font-size:13px}
+.th img{width:68px;height:51px;object-fit:cover;cursor:pointer;border-radius:2px;border:2px solid var(--bd);opacity:.8;transition:.15s}
+.th img:hover{opacity:1;border-color:var(--ac)}.th img.on{opacity:1;border-color:var(--ac);box-shadow:0 0 0 1px var(--ac)}
+article h3{font-size:21px;margin-bottom:4px}
+article p{margin:0;color:var(--mu);font-size:15px}
+.note{margin-top:30px;max-width:62ch;border-left:3px solid var(--ac);padding-left:14px}
+.lw{align-self:center;text-align:center}.lw img{width:100%;max-width:340px;mix-blend-mode:multiply}figure{margin:0;cursor:zoom-in}
+figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:2px}
+figcaption{font-size:14px;color:var(--mu);padding-top:5px}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;z-index:20;cursor:zoom-out}
+#lb img{max-width:94vw;max-height:90vh}
+form{display:grid;gap:10px;max-width:520px;margin-top:22px}
+input,textarea{padding:11px;border:1px solid var(--bd);border-radius:2px;font:inherit;background:var(--bg);color:var(--tx)}
+a.l{color:var(--ac)}
+footer{padding:22px;text-align:center;color:var(--mu);font-size:14px}
+</style></head><body>
+<header><a class="br" href="#inicio"><img id="lg" alt=""><span>Nova Era Exportadora</span></a>
+<nav><a href="#inicio" data-t="n1"></a><a href="#sobre" data-t="n2"></a><a href="#produtos" data-t="n3"></a><a href="#galeria" data-t="n4"></a><a href="#contato" data-t="n5"></a></nav>
+<div class="lg"><button data-l="pt">PT</button> <button data-l="en">EN</button> <button data-l="fr">FR</button></div></header>
+<main>
+<section id="inicio"><div><h1 data-t="h1"></h1><p data-t="hs"></p><a class="btn" href="#contato" data-t="cta"></a></div></section>
+<section id="sobre"><div class="w two"><div><h2 data-t="at"></h2><p data-t="a1"></p><p data-t="a2"></p><p data-t="a3"></p><p data-t="a4"></p>
+<div class="facts"><div><b>2006</b><span data-t="s1"></span></div><div><b data-t="v2"></b><span data-t="s2"></span></div><div><b>5</b><span data-t="s3"></span></div></div>
+<ul class="d" style="margin-top:22px"><li data-t="d1"></li><li data-t="d2"></li><li data-t="d3"></li><li data-t="d4"></li></ul></div>
+<div class="pic"><img id="i5" alt=""><img id="i4" alt=""></div></div></section>
+<section id="produtos"><div class="w"><h2 data-t="n3"></h2><div class="grid" id="pr"></div><p class="note" data-t="pq"></p></div></section>
+<section id="galeria"><div class="w"><h2 data-t="n4"></h2><div class="grid" id="gl"></div></div></section>
+<section id="contato"><div class="w two"><div><h2 data-t="n5"></h2><p data-t="ci"></p>
+<p><a class="btn" href="mailto:export@novaerabr.com" data-t="eb"></a></p>
+<p>Rua Agropalma s/n, Altos, Moju, PA, 68450-000, Brasil<br><a class="l" target="_blank" rel="noopener" href="https://maps.app.goo.gl/sCjF4xRDb35BQiPaA" data-t="mp"></a></p>
+<form id="f" method="post" data-endpoint="https://formspree.io/f/COLOQUE_AQUI_O_ID"><input id="fn" name="name" required><input id="fc" name="company"><input id="fe" name="email" type="email" required><textarea id="fm" name="message" rows="5" required></textarea><button class="btn" data-t="fs"></button><input name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><p id="st" role="status"></p></form></div><div class="lw"><img id="lg2" alt="Nova Era Exportadora"></div></div></section>
+</main>
+<footer>© 2026 Nova Era Exportadora · CNPJ 08.242.838/0001-01</footer>
+<div id="lb"><img alt=""></div>
+<script>
+const IMG=new Proxy({},{get:(_,k)=>"img/"+k+(k==="logo"?".png":".jpg")});
+let D={},P=[],G=[];
+const $=i=>document.getElementById(i);
+(async()=>{const J=u=>fetch(u).then(r=>r.json());const[pt,en,fr,m]=await Promise.all([J('content/pt.json'),J('content/en.json'),J('content/fr.json'),J('content/media.json')]);D={pt,en,fr};P=m.products;G=m.gallery;
+let L='';try{L=localStorage.getItem('l')||''}catch(e){}
+if(!D[L]){L=(navigator.language||'en').slice(0,2);if(!D[L])L='en'}
+function R(){const d=D[L];document.documentElement.lang=L;
+document.querySelectorAll('[data-t]').forEach(e=>e.textContent=d[e.dataset.t]);
+document.querySelectorAll('.lg button').forEach(b=>b.classList.toggle('on',b.dataset.l===L));
+['fn','fc','fe','fm'].forEach(k=>$(k).placeholder=d[k]);
+$('pr').innerHTML=P.map((a,i)=>`<article data-i="0"><div class="mw"><img class="m" src="${IMG[a[0]]}" alt="${d.p[i][0]}"><button class="ar l" data-d="-1">‹</button><button class="ar r" data-d="1">›</button><span class="ct">1/${a.length}</span></div><div class="th"><small>${d.tv}</small>${a.map((k,j)=>`<img src="${IMG[k]}" data-j="${j}" class="${j?'':'on'}" alt="">`).join('')}</div><h3>${d.p[i][0]}</h3><p>${d.p[i][1]}</p></article>`).join('');
+$('gl').innerHTML=G.map((k,i)=>`<figure><img src="${IMG[k]}" alt="${d.g[i]}"><figcaption>${d.g[i]}</figcaption></figure>`).join('')}
+$('lg').src=IMG.logo;$('lg2').src=IMG.logo;$('i5').src=IMG.f5;$('i4').src=IMG.f4;
+$('inicio').style.backgroundImage=`linear-gradient(rgba(8,24,40,.1),rgba(8,24,40,.5)),url(${IMG.f7})`;
+document.querySelectorAll('.lg button').forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem('l',L)}catch(e){}R()});
+$('pr').onclick=e=>{const c=e.target.closest('article');if(!c)return;const n=P[[...$('pr').children].indexOf(c)],x=e.target;let j=+c.dataset.i;
+if(x.dataset.j!==undefined)j=+x.dataset.j;else if(x.dataset.d)j=(j+ +x.dataset.d+n.length)%n.length;else if(x.classList.contains('m')){$('lb').firstChild.src=x.src;$('lb').style.display='flex';return}else return;
+c.dataset.i=j;c.querySelector('.m').src=IMG[n[j]];c.querySelector('.ct').textContent=(j+1)+'/'+n.length;c.querySelectorAll('.th img').forEach((y,z)=>y.classList.toggle('on',z===j))};
+$('gl').onclick=e=>{const i=e.target.closest('figure');if(i){$('lb').firstChild.src=i.querySelector('img').src;$('lb').style.display='flex'}};
+$('lb').onclick=()=>$('lb').style.display='none';
+$('f').onsubmit=async e=>{e.preventDefault();const f=e.target,s=$('st'),b=f.querySelector('button'),u=f.dataset.endpoint;
+if(u.includes('COLOQUE')){location.href='mailto:export@novaerabr.com?subject='+encodeURIComponent('Nova Era - '+$('fn').value)+'&body='+encodeURIComponent($('fm').value+'\n\n'+$('fn').value+' / '+$('fc').value+' / '+$('fe').value);return}
+b.disabled=true;try{const q=await fetch(u,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});if(!q.ok)throw 0;f.reset();s.textContent=D[L].ok}catch(x){s.textContent=D[L].er}b.disabled=false};
+R();
+})();
+</script></body></html>

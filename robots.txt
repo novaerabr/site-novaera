@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://novaerabr.com/sitemap.xml

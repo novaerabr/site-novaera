@@ -1,0 +1,7 @@
+SITE NOVA ERA EXPORTADORA
+index.html            página do site (não precisa editar)
+content/pt|en|fr.json textos em cada idioma (editar aqui os textos)
+content/media.json    ordem das fotos de produtos e da galeria
+img/                  fotos e logo (trocar mantendo o mesmo nome do arquivo)
+Formulário: em index.html, troque COLOQUE_AQUI_O_ID pelo ID do Formspree.
+Atenção: o site precisa estar hospedado para funcionar (não abre direto do arquivo no computador).
