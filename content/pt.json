@@ -21,30 +21,30 @@
  "d3": "Projetos especiais sob consulta",
  "d4": "Porto próprio, que agiliza a logística do pedido",
  "p": [
-  [
-   "Madeira serrada para construção",
-   "Vigamentos, telhados e outras peças estruturais."
-  ],
-  [
-   "Madeira serrada para marcenaria",
-   "Pranchados e tabuados para móveis e outras obras."
-  ],
-  [
-   "Estacas para agricultura",
-   "Tutores, protetores e guias para mudas."
-  ],
-  [
-   "Estacas para frutos do mar",
-   "Estacas de sustentação para o crescimento de ostras e outros frutos do mar."
-  ],
-  [
-   "Lambril",
-   "Revestimentos e forros."
-  ],
-  [
-   "Projetos especiais",
-   "Madeiras sob medida para projetos de construção e casas pré-fabricadas."
-  ]
+  {
+   "n": "Madeira serrada para construção",
+   "d": "Vigamentos, telhados e outras peças estruturais."
+  },
+  {
+   "n": "Madeira serrada para marcenaria",
+   "d": "Pranchados e tabuados para móveis e outras obras."
+  },
+  {
+   "n": "Estacas para agricultura",
+   "d": "Tutores, protetores e guias para mudas."
+  },
+  {
+   "n": "Estacas para frutos do mar",
+   "d": "Estacas de sustentação para o crescimento de ostras e outros frutos do mar."
+  },
+  {
+   "n": "Lambril",
+   "d": "Revestimentos e forros."
+  },
+  {
+   "n": "Projetos especiais",
+   "d": "Madeiras sob medida para projetos de construção e casas pré-fabricadas."
+  }
  ],
  "tv": "Mais fotos deste produto:",
  "pq": "Orçamento sob consulta. Estudamos a viabilidade de produzir as especificações que cada cliente precisa.",

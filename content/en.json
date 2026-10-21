@@ -21,30 +21,30 @@
  "d3": "Special projects on request",
  "d4": "Our own port, which speeds up order logistics",
  "p": [
-  [
-   "Sawn timber for construction",
-   "Beams, roof framing and other structural pieces."
-  ],
-  [
-   "Sawn timber for joinery",
-   "Planks and boards for furniture and other works."
-  ],
-  [
-   "Agricultural stakes",
-   "Tree stakes, protectors and guides for seedlings."
-  ],
-  [
-   "Stakes for seafood farming",
-   "Support stakes for growing oysters and other shellfish."
-  ],
-  [
-   "Tongue-and-groove paneling",
-   "Wall cladding and ceilings."
-  ],
-  [
-   "Special projects",
-   "Made-to-measure timber for construction projects and prefabricated houses."
-  ]
+  {
+   "n": "Sawn timber for construction",
+   "d": "Beams, roof framing and other structural pieces."
+  },
+  {
+   "n": "Sawn timber for joinery",
+   "d": "Planks and boards for furniture and other works."
+  },
+  {
+   "n": "Agricultural stakes",
+   "d": "Tree stakes, protectors and guides for seedlings."
+  },
+  {
+   "n": "Stakes for seafood farming",
+   "d": "Support stakes for growing oysters and other shellfish."
+  },
+  {
+   "n": "Tongue-and-groove paneling",
+   "d": "Wall cladding and ceilings."
+  },
+  {
+   "n": "Special projects",
+   "d": "Made-to-measure timber for construction projects and prefabricated houses."
+  }
  ],
  "tv": "More photos of this product:",
  "pq": "Quotation on request. We study the feasibility of producing the specifications each client needs.",

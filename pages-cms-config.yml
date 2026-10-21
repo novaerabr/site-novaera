@@ -1,0 +1,364 @@
+media:
+  input: img
+  output: /img
+content:
+- name: pt
+  label: Textos em Português
+  type: file
+  path: content/pt.json
+  format: json
+  fields:
+  - name: n1
+    label: 'Menu: Início'
+    type: string
+  - name: n2
+    label: 'Menu: Sobre'
+    type: string
+  - name: n3
+    label: 'Menu e título: Produtos'
+    type: string
+  - name: n4
+    label: 'Menu e título: Galeria'
+    type: string
+  - name: n5
+    label: 'Menu e título: Contato'
+    type: string
+  - name: h1
+    label: Frase principal (início)
+    type: string
+  - name: hs
+    label: Subtítulo (início)
+    type: text
+  - name: cta
+    label: Botão do início
+    type: string
+  - name: at
+    label: Título da seção Sobre
+    type: string
+  - name: a1
+    label: 'Sobre: parágrafo 1'
+    type: text
+  - name: a2
+    label: 'Sobre: parágrafo 2'
+    type: text
+  - name: a3
+    label: 'Sobre: parágrafo 3'
+    type: text
+  - name: a4
+    label: 'Sobre: parágrafo 4'
+    type: text
+  - name: s1
+    label: 'Fatos: legenda do ano de fundação'
+    type: string
+  - name: s2
+    label: 'Fatos: capacidade (legenda)'
+    type: string
+  - name: v2
+    label: 'Fatos: capacidade (valor)'
+    type: string
+  - name: s3
+    label: 'Fatos: mercados (legenda)'
+    type: string
+  - name: d1
+    label: Diferencial 1
+    type: string
+  - name: d2
+    label: Diferencial 2
+    type: string
+  - name: d3
+    label: Diferencial 3
+    type: string
+  - name: d4
+    label: Diferencial 4
+    type: string
+  - name: p
+    label: Produtos (nome e descrição)
+    type: object
+    list: true
+    fields:
+    - name: n
+      label: Nome
+      type: string
+    - name: d
+      label: Descrição
+      type: text
+  - name: tv
+    label: Texto acima das miniaturas
+    type: string
+  - name: pq
+    label: Nota sobre orçamento (produtos)
+    type: text
+  - name: g
+    label: Legendas da galeria (na ordem das fotos)
+    type: string
+    list: true
+  - name: ci
+    label: 'Contato: chamada'
+    type: text
+  - name: eb
+    label: Botão de e-mail
+    type: string
+  - name: mp
+    label: Botão ver no mapa
+    type: string
+  - name: fn
+    label: 'Formulário: Nome'
+    type: string
+  - name: fc
+    label: 'Formulário: Empresa'
+    type: string
+  - name: fe
+    label: 'Formulário: E-mail'
+    type: string
+  - name: fm
+    label: 'Formulário: Mensagem'
+    type: string
+  - name: fs
+    label: 'Formulário: botão enviar'
+    type: string
+  - name: ok
+    label: 'Aviso: mensagem enviada'
+    type: text
+  - name: er
+    label: 'Aviso: erro no envio'
+    type: text
+- name: en
+  label: Textos em Inglês
+  type: file
+  path: content/en.json
+  format: json
+  fields:
+  - name: n1
+    label: 'Menu: Início'
+    type: string
+  - name: n2
+    label: 'Menu: Sobre'
+    type: string
+  - name: n3
+    label: 'Menu e título: Produtos'
+    type: string
+  - name: n4
+    label: 'Menu e título: Galeria'
+    type: string
+  - name: n5
+    label: 'Menu e título: Contato'
+    type: string
+  - name: h1
+    label: Frase principal (início)
+    type: string
+  - name: hs
+    label: Subtítulo (início)
+    type: text
+  - name: cta
+    label: Botão do início
+    type: string
+  - name: at
+    label: Título da seção Sobre
+    type: string
+  - name: a1
+    label: 'Sobre: parágrafo 1'
+    type: text
+  - name: a2
+    label: 'Sobre: parágrafo 2'
+    type: text
+  - name: a3
+    label: 'Sobre: parágrafo 3'
+    type: text
+  - name: a4
+    label: 'Sobre: parágrafo 4'
+    type: text
+  - name: s1
+    label: 'Fatos: legenda do ano de fundação'
+    type: string
+  - name: s2
+    label: 'Fatos: capacidade (legenda)'
+    type: string
+  - name: v2
+    label: 'Fatos: capacidade (valor)'
+    type: string
+  - name: s3
+    label: 'Fatos: mercados (legenda)'
+    type: string
+  - name: d1
+    label: Diferencial 1
+    type: string
+  - name: d2
+    label: Diferencial 2
+    type: string
+  - name: d3
+    label: Diferencial 3
+    type: string
+  - name: d4
+    label: Diferencial 4
+    type: string
+  - name: p
+    label: Produtos (nome e descrição)
+    type: object
+    list: true
+    fields:
+    - name: n
+      label: Nome
+      type: string
+    - name: d
+      label: Descrição
+      type: text
+  - name: tv
+    label: Texto acima das miniaturas
+    type: string
+  - name: pq
+    label: Nota sobre orçamento (produtos)
+    type: text
+  - name: g
+    label: Legendas da galeria (na ordem das fotos)
+    type: string
+    list: true
+  - name: ci
+    label: 'Contato: chamada'
+    type: text
+  - name: eb
+    label: Botão de e-mail
+    type: string
+  - name: mp
+    label: Botão ver no mapa
+    type: string
+  - name: fn
+    label: 'Formulário: Nome'
+    type: string
+  - name: fc
+    label: 'Formulário: Empresa'
+    type: string
+  - name: fe
+    label: 'Formulário: E-mail'
+    type: string
+  - name: fm
+    label: 'Formulário: Mensagem'
+    type: string
+  - name: fs
+    label: 'Formulário: botão enviar'
+    type: string
+  - name: ok
+    label: 'Aviso: mensagem enviada'
+    type: text
+  - name: er
+    label: 'Aviso: erro no envio'
+    type: text
+- name: fr
+  label: Textos em Francês
+  type: file
+  path: content/fr.json
+  format: json
+  fields:
+  - name: n1
+    label: 'Menu: Início'
+    type: string
+  - name: n2
+    label: 'Menu: Sobre'
+    type: string
+  - name: n3
+    label: 'Menu e título: Produtos'
+    type: string
+  - name: n4
+    label: 'Menu e título: Galeria'
+    type: string
+  - name: n5
+    label: 'Menu e título: Contato'
+    type: string
+  - name: h1
+    label: Frase principal (início)
+    type: string
+  - name: hs
+    label: Subtítulo (início)
+    type: text
+  - name: cta
+    label: Botão do início
+    type: string
+  - name: at
+    label: Título da seção Sobre
+    type: string
+  - name: a1
+    label: 'Sobre: parágrafo 1'
+    type: text
+  - name: a2
+    label: 'Sobre: parágrafo 2'
+    type: text
+  - name: a3
+    label: 'Sobre: parágrafo 3'
+    type: text
+  - name: a4
+    label: 'Sobre: parágrafo 4'
+    type: text
+  - name: s1
+    label: 'Fatos: legenda do ano de fundação'
+    type: string
+  - name: s2
+    label: 'Fatos: capacidade (legenda)'
+    type: string
+  - name: v2
+    label: 'Fatos: capacidade (valor)'
+    type: string
+  - name: s3
+    label: 'Fatos: mercados (legenda)'
+    type: string
+  - name: d1
+    label: Diferencial 1
+    type: string
+  - name: d2
+    label: Diferencial 2
+    type: string
+  - name: d3
+    label: Diferencial 3
+    type: string
+  - name: d4
+    label: Diferencial 4
+    type: string
+  - name: p
+    label: Produtos (nome e descrição)
+    type: object
+    list: true
+    fields:
+    - name: n
+      label: Nome
+      type: string
+    - name: d
+      label: Descrição
+      type: text
+  - name: tv
+    label: Texto acima das miniaturas
+    type: string
+  - name: pq
+    label: Nota sobre orçamento (produtos)
+    type: text
+  - name: g
+    label: Legendas da galeria (na ordem das fotos)
+    type: string
+    list: true
+  - name: ci
+    label: 'Contato: chamada'
+    type: text
+  - name: eb
+    label: Botão de e-mail
+    type: string
+  - name: mp
+    label: Botão ver no mapa
+    type: string
+  - name: fn
+    label: 'Formulário: Nome'
+    type: string
+  - name: fc
+    label: 'Formulário: Empresa'
+    type: string
+  - name: fe
+    label: 'Formulário: E-mail'
+    type: string
+  - name: fm
+    label: 'Formulário: Mensagem'
+    type: string
+  - name: fs
+    label: 'Formulário: botão enviar'
+    type: string
+  - name: ok
+    label: 'Aviso: mensagem enviada'
+    type: text
+  - name: er
+    label: 'Aviso: erro no envio'
+    type: text

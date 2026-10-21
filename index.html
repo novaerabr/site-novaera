@@ -68,7 +68,7 @@ footer{padding:22px;text-align:center;color:var(--mu);font-size:14px}
 <section id="contato"><div class="w two"><div><h2 data-t="n5"></h2><p data-t="ci"></p>
 <p><a class="btn" href="mailto:export@novaerabr.com" data-t="eb"></a></p>
 <p>Rua Agropalma s/n, Altos, Moju, PA, 68450-000, Brasil<br><a class="l" target="_blank" rel="noopener" href="https://maps.app.goo.gl/sCjF4xRDb35BQiPaA" data-t="mp"></a></p>
-<form id="f" method="post" data-endpoint="https://formspree.io/f/xrpeweew"><input id="fn" name="name" required><input id="fc" name="company"><input id="fe" name="email" type="email" required><textarea id="fm" name="message" rows="5" required></textarea><button class="btn" data-t="fs"></button><input name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><p id="st" role="status"></p></form></div><div class="lw"><img id="lg2" alt="Nova Era Exportadora"></div></div></section>
+<form id="f" method="post" data-endpoint="https://formspree.io/f/COLOQUE_AQUI_O_ID"><input id="fn" name="name" required><input id="fc" name="company"><input id="fe" name="email" type="email" required><textarea id="fm" name="message" rows="5" required></textarea><button class="btn" data-t="fs"></button><input name="_gotcha" style="display:none" tabindex="-1" autocomplete="off"><p id="st" role="status"></p></form></div><div class="lw"><img id="lg2" alt="Nova Era Exportadora"></div></div></section>
 </main>
 <footer>© 2026 Nova Era Exportadora · CNPJ 08.242.838/0001-01</footer>
 <div id="lb"><img alt=""></div>
@@ -83,7 +83,7 @@ function R(){const d=D[L];document.documentElement.lang=L;
 document.querySelectorAll('[data-t]').forEach(e=>e.textContent=d[e.dataset.t]);
 document.querySelectorAll('.lg button').forEach(b=>b.classList.toggle('on',b.dataset.l===L));
 ['fn','fc','fe','fm'].forEach(k=>$(k).placeholder=d[k]);
-$('pr').innerHTML=P.map((a,i)=>`<article data-i="0"><div class="mw"><img class="m" src="${IMG[a[0]]}" alt="${d.p[i][0]}"><button class="ar l" data-d="-1">‹</button><button class="ar r" data-d="1">›</button><span class="ct">1/${a.length}</span></div><div class="th"><small>${d.tv}</small>${a.map((k,j)=>`<img src="${IMG[k]}" data-j="${j}" class="${j?'':'on'}" alt="">`).join('')}</div><h3>${d.p[i][0]}</h3><p>${d.p[i][1]}</p></article>`).join('');
+$('pr').innerHTML=P.map((a,i)=>`<article data-i="0"><div class="mw"><img class="m" src="${IMG[a[0]]}" alt="${d.p[i].n}"><button class="ar l" data-d="-1">‹</button><button class="ar r" data-d="1">›</button><span class="ct">1/${a.length}</span></div><div class="th"><small>${d.tv}</small>${a.map((k,j)=>`<img src="${IMG[k]}" data-j="${j}" class="${j?'':'on'}" alt="">`).join('')}</div><h3>${d.p[i].n}</h3><p>${d.p[i].d}</p></article>`).join('');
 $('gl').innerHTML=G.map((k,i)=>`<figure><img src="${IMG[k]}" alt="${d.g[i]}"><figcaption>${d.g[i]}</figcaption></figure>`).join('')}
 $('lg').src=IMG.logo;$('lg2').src=IMG.logo;$('i5').src=IMG.f5;$('i4').src=IMG.f4;
 $('inicio').style.backgroundImage=`linear-gradient(rgba(8,24,40,.1),rgba(8,24,40,.5)),url(${IMG.f7})`;

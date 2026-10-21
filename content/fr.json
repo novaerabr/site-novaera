@@ -21,30 +21,30 @@
  "d3": "Projets spéciaux sur demande",
  "d4": "Port propre, qui accélère la logistique des commandes",
  "p": [
-  [
-   "Bois scié pour la construction",
-   "Poutres, charpentes et autres pièces structurelles."
-  ],
-  [
-   "Bois scié pour la menuiserie",
-   "Plateaux et planches pour meubles et autres ouvrages."
-  ],
-  [
-   "Piquets agricoles",
-   "Tuteurs, protections et guides pour jeunes plants."
-  ],
-  [
-   "Pieux pour l'élevage de fruits de mer",
-   "Pieux de support pour la croissance des huîtres et autres fruits de mer."
-  ],
-  [
-   "Lambris",
-   "Revêtements muraux et plafonds."
-  ],
-  [
-   "Projets spéciaux",
-   "Bois sur mesure pour projets de construction et maisons préfabriquées."
-  ]
+  {
+   "n": "Bois scié pour la construction",
+   "d": "Poutres, charpentes et autres pièces structurelles."
+  },
+  {
+   "n": "Bois scié pour la menuiserie",
+   "d": "Plateaux et planches pour meubles et autres ouvrages."
+  },
+  {
+   "n": "Piquets agricoles",
+   "d": "Tuteurs, protections et guides pour jeunes plants."
+  },
+  {
+   "n": "Pieux pour l'élevage de fruits de mer",
+   "d": "Pieux de support pour la croissance des huîtres et autres fruits de mer."
+  },
+  {
+   "n": "Lambris",
+   "d": "Revêtements muraux et plafonds."
+  },
+  {
+   "n": "Projets spéciaux",
+   "d": "Bois sur mesure pour projets de construction et maisons préfabriquées."
+  }
  ],
  "tv": "Plus de photos de ce produit :",
  "pq": "Devis sur demande. Nous étudions la faisabilité de produire les spécifications dont chaque client a besoin.",
